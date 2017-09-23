@@ -1,0 +1,41 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="/style.css">
+
+  <head>
+    <title>Timestamp API project</title>
+  </head>
+  <body>
+    <h1>
+      Timestamp API Microservice
+    </h1>
+    <p>
+      This app is simple to use: simply request a date or unix timestamp, and the API will return a JSON object of both the natural language date and the unix time. 
+    </p>
+    <p>
+      Examples of use:
+    </p>
+    <p id="examples">
+      https://band-point.glitch.me/Dec 31, 1999<br>
+      https://band-point.glitch.me/946598400
+    </p>
+    <p>
+      Both of these queries will return the same JSON:
+    </p>
+    <div id="container">
+    <p id="JSON">
+      {"unix":946598400,"natural":"December 31, 1999"}
+    </p>
+    </div>    
+  </body>
+</html>
