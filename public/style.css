@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#examples{
+  color: red;
+}
+
+#container{
+  margin: auto;
+  width: 35%;
+  background-color: white;
+  color: black; 
+}
